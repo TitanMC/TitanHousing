@@ -6,7 +6,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.titanmc.houses.manager.ParsePlaceHolders;
+import org.titanmc.houses.manager.PlayerManager;
 import org.titanmc.houses.utils.GUIProperties;
+import org.titanmc.houses.utils.LoadSchematics;
 import org.titanmc.houses.utils.Locale;
 
 public class Core extends JavaPlugin{
